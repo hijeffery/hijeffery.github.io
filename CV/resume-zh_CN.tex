@@ -1,0 +1,147 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+\usepackage{multicol}
+
+\usepackage{graphicx}
+\newcommand{\addphoto}[2]{%
+  \smash{%
+    \makebox[0pt][l]{%
+      \raisebox{#1mm}{%
+        \hspace{#2mm}\includegraphics[width=2.5cm]{photo.eps}%
+      }%
+     }%
+  }%
+}
+
+\begin{document}
+
+\pagenumbering{gobble} % suppress displaying page number
+
+\addphoto{-15}{140}
+\name{冉令燕}
+\vspace{8mm}
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+{\small \contactInfo{lingyanran@gmail.com}{177-9183-4424}{http://www.saiip-vision.org/lingyanran/index.html}}
+\section{\faSuitcase\  求职意向}
+本人为西北工业大学在读博士研究生，师从张艳宁教授专注于计算机视觉与模式识别相关研究。主要研究内容为基于深度学习理论的图像语义分割及数据分类技术，相关成果内容已经应用到所参与的多个科研项目中。
+现寻求计算机视觉与机器学习相关研究工作岗位，并期待与优秀团队共同合作。
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textit{联合培养博士研究生}\ 计算机视觉方向}{2013 -- 2015}
+\quad \textbf{斯蒂文斯理工学院}，美国新泽西州霍博肯市
+\datedsubsection{\textit{在读博士研究生}\ 计算机科学与技术}{2011 -- 至今}
+\quad \textbf{西北工业大学，计算机学院}，西安
+\datedsubsection{\textit{工学学士}\ 计算机科学与技术}{2007 -- 2011}
+\quad \textbf{西北工业大学，计算机学院}，西安
+
+\quad \textbf{西北工业大学，教育实验学院}，西安
+
+\section{\faBinoculars\ 研究兴趣}
+\vspace{-3mm}
+\begin{multicols}{2}
+\begin{itemize}
+  \item 计算机视觉与模式识别
+  \item 图像语义分割
+  \item 多传感器协同信息处理
+  \item 深度学习
+  \item 相机阵列合成孔径成像
+  \item 序列图像配准与拼接
+\end{itemize}
+\end{multicols}
+
+\section{\faFile\ 论文及专利}
+\begin{itemize}
+	\item \textbf{Lingyan Ran}, Yanning Zhang, Wei Wei, and Qilin Zhang. \textit{A Hyperspectral Image Classification Framework with Spatial Pixel Pair Features}, Sensors 2017, 17(10), 2421. \textbf{(IF: 2.677)}
+	\item \textbf{Lingyan Ran}, Yanning Zhang, Qilin Zhang, Tao Yang. \textit{Convolutional Neural Network-Based Robot Navigation Using Uncalibrated Spherical Images}, Sensors 2017, 17(6), 1341. \textbf{(IF: 2.677)}
+	\item \textbf{Lingyan Ran}, Yanning Zhang, Tao Yang. \textit{Autonomous Near Ground Quadrone Navigation
+ with Uncalibrated Spherical Images Using Convolutional Neural Networks}, Proceedings of the 14th International Conference on Advances in Mobile Computing and Multimedia (MoMM), 2016.
+  \item \textbf{Lingyan Ran}, Yanning Zhang, Tao Yang, Peng Zhang. \textit{Autonomous Wheeled Robot Navigation with Uncalibrated Spherical Images}, The 4th Chinese Conference on Intelligent Visual Surveillance (IVS), 2016.
+  \item \textbf{Lingyan Ran}, Yanning Zhang, Wei Wei, Tao Yang. \textit{Bands Sensitive Convolutional Network for Hyperspectral Image Classification}, Inter. Conf. on Internet Multimedia Computing and Service, 2016.
+  % International Conference on Internet Multimedia Computing and Service (ICIMCS), 2016.
+  \item \textbf{Lingyan Ran}, Yanning Zhang, Gang Hua. \textit{CANNET: Context Aware Nonlocal Convolutional Networks for Semantic Image Segmentation}, International Conference on Image Processing (ICIP), 2015, Canada. %Quebec City, (信息与通信工程顶级会议)
+  \item Tao Yang, Jing Li, Jingyi Yu, Yanning Zhang, Wenguang Ma, Xiaomin Tong, Rui Yu, \textbf{Lingyan Ran}. \textit{Multiple-Layer Visibility Propagation-Based Synthetic Aperture Imaging through Occlusion}. Sensors, 2015. %15, 18965-18984.
+  \item Tao Yang, Yanning Zhang, Jingyi Yu, Jing Li, Wenguang Ma, Xiaomin Tong, Rui Yu, \textbf{Lingyan Ran}. \textit{All-In-Focus Synthetic Aperture Imaging}, European Conference on Computer Vision (ECCV), 2014.
+  \item Tao Yang, Yanning Zhang, Rui Yu, Xiaoqiang Zhang, Ting Chen, \textbf{Lingyan Ran}, Zhengxi Song. \textit{Simultaneous camera array focus plane estimation and occluded moving object imaging}. IVC,2014.
+  \item Tao Yang, Xiaoqiang Zhang, \textbf{Lingyan Ran}, Rui Yu, Runping Xi, \textit{Camera Array Synthetic Aperture Focusing and Fusion based Hidden Object Imaging,} ISciDE, 2011, Xi'an, China.
+  \item 杨涛，张艳宁，王斯丙，马文广，\textbf{冉令燕}。\textit{基于多层次词袋聚类的快速无序图像拼接方法}。专利，授权公告号：CN103679676A.
+  \item 杨涛，张艳宁，张晓强，余瑞，陈挺，\textbf{冉令燕}，宋征玺。\textit{相机阵列动态焦平面估计方法}。专利，授权公告号：CN103413302B.
+  \item 杨涛，张艳宁，马文广，王思丙，\textbf{冉令燕}，仝小敏。\textit{基于多源数据融合的实时合成孔径透视成像方法}，专利申请号：2013106442913.
+\end{itemize}
+
+\section{\faUsers\ 项目经历}
+\datedsubsection{\textbf{无人机对地感知多光谱图像分类}}{2016年06月 -- 2017年05月}
+无人机在处理自然灾后救援中有重大应用价值，我们主要针对无人机对地环境感知问题，通过对无人机对地多光谱成像分析，对场景中人工建筑物及不同植被的分类精度有了一定程度的提升。
+
+\datedsubsection{\textbf{地面机器人全景相机运动规避}}{2016年01月 -- 2016年05月}
+运动规避技术是智能机器人的一个重要技能，考虑到全景相机对于拓宽机器人视野的帮助，我们提出了通过深度学习对机器人获取的全景图像进行分类，从而获取安全前进方向的方案，实验效果稳定。
+
+\datedsubsection{\textbf{基于非局部上下文信息的图像语义分割}}{2015年01月 -- 2015年09月}
+图像语义分割是机器完成逐像素理解的过程。不同于人类认知系统，机器对于图片的识别尚不成熟。通过设计非局部卷积核，我们的算法能够根据大范围邻域信息做出决策，极大提升了分割精度。
+
+\datedsubsection{\textbf{基于不变特征的大场景视频拼接}}{2013年02月 -- 2013年09月}
+无人机在执行大场景飞行任务中，生成完整的飞行场景图像，对于指挥决策具有重要价值。我们设计了一套拼接系统，能够极大的消除累计误差等对于拼接的影响，进而得到完整的场景拼接效果图。
+
+\datedsubsection{\textbf{相机阵列合成孔径成像技术}}{2011年09月 -- 2012年07月}
+目标跟踪等传统计算机视觉任务中，遮挡是一个无法避免的问题。我们优化了相机阵列对被遮挡目标成像进行透视成像的研究，能够很好的解决静止及运动目标对于阵列场景内的物体成像问题。
+
+\datedsubsection{\textbf{基于视觉的无人机实时自主着陆系统}}{2011年04月 -- 2011年10月}
+计算机视觉决策的引入，可以使无人机不依赖指令员而完成自主降落。
+我们搭建了一套地空结合的视觉导引系统，通过地基立体相机定位机载标志物，能够实时对无人机定位定速，完成引导着陆。
+
+\datedsubsection{\textbf{基于运动目标轨迹的红外/可见光视频配准}}{2010年09月 -- 2011年06月}
+由于成像机理的不同，异源图像配准难度很大，无法使用特征匹配等传统方法。我们使用了场景内运动目标跟踪轨迹匹配的方法，通过轨迹对应点完成映射矩阵计算，继而实现异源配准。
+
+\section{\faTrophy\ 获奖情况}
+% \section{\faHeartO\ 获奖情况}
+\datedline{西北工业大学，优秀本科毕业生}{2011}
+\datedline{西北工业大学模拟联合国会议，最佳立场文件奖}{2008}
+\datedline{西北工业大学优秀本科生，一等奖学金}{2007 -- 2011}
+
+
+\section{\faSlideshare\ 社会活动}
+\datedline{\textit{审稿人}，International Journal of Advanced Robotic Systems}{}
+\datedline{\textit{评审人}，智利国家科学与技术发展基金(FONDECYT)}{2017}
+\datedline{\textit{志愿者}，亚太信号与信息处理会议/智能科学与大数据会议}{2011}
+\datedline{\textit{助教}，语音与自然语言处理基础}{2012}
+\datedline{\textit{班长}，教育实验学院200702}{2007 -- 2010}
+
+
+% % Reference Test
+% \datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+% An xxx optimized for xxx\cite{verma2015large}
+% \begin{itemize}
+%  \item main contribution
+% \end{itemize}
+
+\begin{multicols}{2}
+\section{\faTerminal\ 编程技术}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: 熟悉bash, C/C++, Lua, Matlab
+  \item 开发工具包: Torch, OpenCV, MFC
+\end{itemize}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  % \item 技术博客: http://blog.yours.me
+  % \item GitHub: https://github.com/username
+  \item 语言: 英语 - 熟练(六级)
+  \item 个人: 良好的团队意识与交流合作能力
+  % \item 个人: 良好的团队意识与交流合作能力，有很高的学习工作热情，具备独立思考解决问题的能力
+\end{itemize}
+
+\end{multicols}
+
+
+
+
+\end{document}
