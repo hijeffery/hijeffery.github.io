@@ -1,0 +1,12 @@
+@Article{ran2017sppf,
+AUTHOR = {Ran, Lingyan and Zhang, Yanning and Wei, Wei and Zhang, Qilin},
+TITLE = {A Hyperspectral Image Classification Framework with Spatial Pixel Pair Features},
+JOURNAL = {Sensors},
+VOLUME = {17},
+YEAR = {2017},
+NUMBER = {10},
+ARTICLE NUMBER = {2421},
+URL = {http://www.mdpi.com/1424-8220/17/10/2421},
+ISSN = {1424-8220},
+DOI = {10.3390/s17102421}
+}

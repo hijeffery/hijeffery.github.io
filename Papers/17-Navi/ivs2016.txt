@@ -1,0 +1,8 @@
+@inproceedings{ran2016autonomous,
+  title={Autonomous Wheeled Robot Navigation with Uncalibrated Spherical Images},
+  author={Ran, Lingyan and Zhang, Yanning and Yang, Tao and Zhang, Peng},
+  booktitle={Chinese Conference on Intelligent Visual Surveillance},
+  pages={47--55},
+  year={2016},
+  organization={Springer, Singapore}
+}
