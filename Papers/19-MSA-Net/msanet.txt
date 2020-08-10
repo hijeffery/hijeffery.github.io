@@ -1,0 +1,8 @@
+@inproceedings{yang2019msa,
+  title={MSA-Net: Multiscale Spatial Attention Network for the Classification of Breast Histology Images},
+  author={Yang, Zhanbo and Ran, Lingyan and Xia, Yong and Zhang, Yanning},
+  booktitle={International Conference on Brain Inspired Cognitive Systems},
+  pages={273--282},
+  year={2019},
+  organization={Springer}
+}

@@ -1,0 +1,9 @@
+@article{yang2019ems,
+  title={EMS-net: Ensemble of multiscale convolutional neural networks for classification of breast cancer histology images},
+  author={Yang, Zhanbo and Ran, Lingyan and Zhang, Shizhou and Xia, Yong and Zhang, Yanning},
+  journal={Neurocomputing},
+  volume={366},
+  pages={46--53},
+  year={2019},
+  publisher={Elsevier}
+}
