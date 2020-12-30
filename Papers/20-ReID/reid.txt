@@ -1,0 +1,11 @@
+@article{RAN202125,
+title = "Improving visible-thermal ReID with structural common space embedding and part models",
+journal = "Pattern Recognition Letters",
+volume = "142",
+pages = "25 - 31",
+year = "2021",
+issn = "0167-8655",
+doi = "https://doi.org/10.1016/j.patrec.2020.11.020",
+url = "http://www.sciencedirect.com/science/article/pii/S0167865520304347",
+author = "Lingyan Ran and Yujun Hong and Shizhou Zhang and Yifei Yang and Yanning Zhang",
+}
