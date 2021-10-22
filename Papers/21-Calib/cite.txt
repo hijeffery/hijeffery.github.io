@@ -1,0 +1,16 @@
+@InProceedings{10.1007/978-3-030-88007-1_2,
+author="Zhang, Xiaoqiang
+and Zhong, Liangtao
+and Liang, Chao
+and Chu, Hongyu
+and Shao, Yanhua
+and Ran, Lingyan",
+title="Metric Calibration of Aerial On-Board Multiple Non-overlapping Cameras Based on Visual and Inertial Measurement Data",
+booktitle="Pattern Recognition and Computer Vision",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="16--28",
+isbn="978-3-030-88007-1"
+}
+
