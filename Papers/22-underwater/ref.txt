@@ -1,0 +1,3 @@
+[1] Xiaoqiang Zhang, Liangtao Zhong, Qiqi Leng, Lingyan Ran, Hongyu Chu. Underwater Light Field Camera Calibration Based on Multi-Layer Flat Refractive Model and Multi-Projection-Center Model[J]. Acta Optica Sinica, 2022, 42(12): 1215001(in chinese)
+张晓强, 钟良涛, 冷齐齐, 冉令燕, 楚红雨. 基于多层平面折射模型与多投影中心模型的光场相机水下标定[J]. 光学学报, 2022, 42(12): 1215001
+
