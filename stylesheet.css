@@ -1,0 +1,67 @@
+/*整体设置*/
+body,h2,td,th,tr,p,a {
+  font-family: Verdana, Helvetica, sans-serif, monospace;
+  font-size: 16px;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+a:focus,a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+a.paper {
+  font-weight: bold;
+}
+
+body {
+  position: relative;
+  margin: 3em auto 2em auto;
+  width: 900px;
+  background: #eee;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+/*div区域设置,about me, Selected Publications*/
+div.section {
+  margin-bottom: 1.5em;
+  background: #eee;
+}
+div.spanner {
+  clear: both; /*清除浮动效果*/
+}
+div.paper {
+/*  clear: both;*/
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 1em 1em 1em 1em;
+}
+div.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+div.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+/*图片格式：*/
+img.paper {
+  margin-bottom: 0.5em;
+  float: right;
+  width: 200px;
+}
