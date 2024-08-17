@@ -3,7 +3,9 @@ body,h2,td,th,tr,p,a {
   font-family: Verdana, Helvetica, sans-serif, monospace;
   font-size: 16px;
 }
-
+p {
+  margin: 0;
+}
 a {
   color: #1772d0;
   text-decoration: none;
