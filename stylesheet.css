@@ -67,3 +67,20 @@ img.paper {
   float: right;
   width: 200px;
 }
+
+/*定义按钮*/
+.button {
+  font-size: 12px !important;
+  margin-left: 0;
+  margin-right: 8px;
+  margin-top: 0;
+  margin-bottom: 3px;
+  padding: 3px 12px;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  transition: all .3s linear;
+  display: inline-block;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+}
