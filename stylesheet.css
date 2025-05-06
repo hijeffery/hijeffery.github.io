@@ -68,7 +68,7 @@ img.paper {
   width: 200px;
 }
 
-/*定义按钮*/
+/*定义按钮,子类按钮*/
 .button {
   font-size: 12px !important;
   margin-left: 0;
@@ -83,4 +83,8 @@ img.paper {
   border-width: 1px;
   border-style: solid;
   border-radius: 4px;
+}
+.button1 {
+  width: 100px;
+  text-align: center;
 }
