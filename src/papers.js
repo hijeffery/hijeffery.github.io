@@ -4,6 +4,15 @@ const VISIBLE_COUNT = 10;
 
 const papersData = [
   {
+    title:"Dam deformation monitoring via dam segmentation and fast and slow change detection",
+    authors:"Chenxu Wei, Haoxuan Li, Boyuan An, <strong>Lingyan Ran</strong>, Baosen Zhang, Junrui Liu, Xiuwei Zhang.",
+    venue:"Proceedings of 2025 5th International Joint Conference on Robotics and Artificial Intelligence.",
+    image:"Papers/26-damcd/damcd.png",
+    links:[
+      {name:"pdf",url:"Papers/26-damcd/damcd.pdf"}
+    ]
+  },
+  {
     title: "River Ice Fine-grained Segmentation: A GF-2 Satellite Image Dataset and Deep Learning Benchmark",
     authors: "Chenxu Wei, Haoxuan Li, Liang Chen, Haohao Zhou, Omirzhan Taukebayev, Wencong Wu, Amirkhan Temirbayev, Lin Han, <strong>Lingyan Ran</strong>, etc.",
     venue: "⑦ <em>IEEE Transactions on Geoscience and Remote Sensing</em>, vol. 63, pp. 1-15, 2025, Art no. 5615814, DOI: 10.1109/TGRS.2025.3604644.",
@@ -87,16 +96,6 @@ const papersData = [
     ]
   },
   {
-    title: "Neural rendering of underwater scenes under flat refractive geometry",
-    authors: "Ting Bai, Xiaoqiang Zhang, Caiyu Xiong, Zhixin Zhang, <strong>Lingyan Ran</strong>, Hongyu Chu, Hu Deng.",
-    venue: "15th International Conference on Information Optics and Photonics (CIOP2024), 2024, Xi’an, China",
-    image: "Papers/24-rendering/1.png",
-    website: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13418/3048562/Neural-rendering-of-underwater-scenes-under-flat-refractive-geometry/10.1117/12.3048562.short",
-    links: [
-      { name: "pdf", url: "Papers/24-rendering/1.pdf" }
-    ]
-  },
-  {
     title: "DDF: A Novel Dual-Domain Image Fusion Strategy for Remote Sensing Image Semantic Segmentation with Unsupervised Domain Adaptation",
     authors: "<strong>Lingyan Ran</strong>, Lushuang Wang, Tao Zhuo, Yinghui Xing, Yanning Zhang.",
     venue: "⑤ IEEE Transactions on Geoscience and Remote Sensing, 2024.",
@@ -104,6 +103,16 @@ const papersData = [
     website: "https://ieeexplore.ieee.org/document/10620432",
     links: [
       { name: "pdf", url: "Papers/24-DDF/DDF.pdf" }
+    ]
+  },
+  {
+    title: "Neural rendering of underwater scenes under flat refractive geometry",
+    authors: "Ting Bai, Xiaoqiang Zhang, Caiyu Xiong, Zhixin Zhang, <strong>Lingyan Ran</strong>, Hongyu Chu, Hu Deng.",
+    venue: "15th International Conference on Information Optics and Photonics (CIOP2024), 2024, Xi’an, China",
+    image: "Papers/24-rendering/1.png",
+    website: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13418/3048562/Neural-rendering-of-underwater-scenes-under-flat-refractive-geometry/10.1117/12.3048562.short",
+    links: [
+      { name: "pdf", url: "Papers/24-rendering/1.pdf" }
     ]
   },
   {
