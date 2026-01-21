@@ -4,6 +4,15 @@ const VISIBLE_COUNT = 10;
 
 const papersData = [
   {
+    title:"Refractive neural rendering of underwater scenes via complex refractive surface reconstruction",
+    authors:"Xiaoqiang Zhang, Zhixin Zhang, <strong>Lingyan Ran</strong>, etc.",
+    venue:"The 8th Chinese Conference on Pattern Recognition and Computer Vision, 2025.",
+    image:"Papers/26-underwater/1.png",
+    links:[
+      {name:"pdf",url:"Papers/26-underwater/underwater.pdf"}
+    ]
+  },
+  {
     title:"Dam deformation monitoring via dam segmentation and fast and slow change detection",
     authors:"Chenxu Wei, Haoxuan Li, Boyuan An, <strong>Lingyan Ran</strong>, Baosen Zhang, Junrui Liu, Xiuwei Zhang.",
     venue:"Proceedings of 2025 5th International Joint Conference on Robotics and Artificial Intelligence.",
