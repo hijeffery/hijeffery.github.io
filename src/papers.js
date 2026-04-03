@@ -4,6 +4,24 @@ const VISIBLE_COUNT = 10;
 
 const papersData = [
   {
+    title:"Better matching, less forgetting: a quality-guided matcher for transformer-based incremental object detection",
+    authors:"Qirui Wu, Shizhou Zhang, De Cheng, Yinghui Xing, <strong>Lingyan Ran</strong>, Dahu Shi, Peng Wang.",
+    venue:"① Proceedings of the AAAI Conference on Artificial Intelligence, 2026.",
+    image:"Papers/26-IOD/main.png",
+    links:[
+      {name:"pdf",url:"Papers/26-IOD/IOD.pdf"}
+    ]
+  },
+  {
+    title:"An Active Learning Method based on the Label Diversity of Nearest Neighbors",
+    authors:"Guoqiang Liang, Guanghui Han, Shuailong Zhang and <strong>Lingyan Ran</strong>.",
+    venue:"IEEE 6th International Conference on Computer, Big Data, Artificial Intelligence, 2025.",
+    image:"Papers/25-labeldiversity/main.png",
+    links:[
+      {name:"pdf",url:"Papers/25-labeldiversity/main.pdf"}
+    ]
+  },
+  {
     title:"Refractive neural rendering of underwater scenes via complex refractive surface reconstruction",
     authors:"Xiaoqiang Zhang, Zhixin Zhang, <strong>Lingyan Ran</strong>, etc.",
     venue:"The 8th Chinese Conference on Pattern Recognition and Computer Vision, 2025.",
@@ -39,6 +57,24 @@ const papersData = [
     website: "https://arxiv.org/abs/2508.08677",
     links: [
       { name: "pdf", url: "Papers/25-OCIL/paper.pdf" }
+    ]
+  },
+  {
+    title: "Enhancing SAR Image Generation Quality via Laplacian Pyramid-Enhanced VAE with Frequency Domain Loss",
+    authors: "Luowei Tan, Shizhou Zhang, Yinghui Xing, <strong>Lingyan Ran</strong>, Peng Wang, Yanning Zhang.",
+    venue: "International Joint Conference on Robotics and Artificial Intelligence (IJCRAI), 2025.",
+    image: "",
+    links: [
+      { name: "pdf", url: "" }
+    ]
+  },
+  {
+    title: "E2SAM: Edge-Enhanced SAM with FFC Adapter for Few-Shot Infrared Small Target Detection",
+    authors: "Ziyi Li, Yinghui Xing, Feng Sang, Shizhou Zhang, <strong>Lingyan Ran</strong> and Yanning Zhang.",
+    venue: "International Joint Conference on Robotics and Artificial Intelligence (IJCRAI), 2025.",
+    image: "",
+    links: [
+      { name: "pdf", url: "" }
     ]
   },
   {
@@ -289,7 +325,7 @@ const papersData = [
   {
     title: "EMS-Net: Ensemble of Multiscale Convolutional Neural Networks for Classification of Breast Cancer Histology Images",
     authors: "Zhanbo Yang, <strong>Lingyan Ran</strong>, Shizhou Zhang, Yong Xia and Yanning Zhang",
-    venue: "Neurocomputing, 2019.",
+    venue: "① Neurocomputing, 2019.",
     image: "Papers/19-EMS-Net/ems-net.jpg",
     website: "https://www.sciencedirect.com/science/article/pii/S0925231219310872?via%3Dihub",
     links: [
