@@ -63,9 +63,9 @@ const papersData = [
     title: "Enhancing SAR Image Generation Quality via Laplacian Pyramid-Enhanced VAE with Frequency Domain Loss",
     authors: "Luowei Tan, Shizhou Zhang, Yinghui Xing, <strong>Lingyan Ran</strong>, Peng Wang, Yanning Zhang.",
     venue: "International Joint Conference on Robotics and Artificial Intelligence (IJCRAI), 2025.",
-    image: "",
+    image: "Papers/25-SAR-VAE/main.png",
     links: [
-      { name: "pdf", url: "" }
+      { name: "pdf", url: "Papers/25-SAR-VAE/main.pdf" }
     ]
   },
   {
