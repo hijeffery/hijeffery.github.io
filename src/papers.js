@@ -72,9 +72,9 @@ const papersData = [
     title: "E2SAM: Edge-Enhanced SAM with FFC Adapter for Few-Shot Infrared Small Target Detection",
     authors: "Ziyi Li, Yinghui Xing, Feng Sang, Shizhou Zhang, <strong>Lingyan Ran</strong> and Yanning Zhang.",
     venue: "International Joint Conference on Robotics and Artificial Intelligence (IJCRAI), 2025.",
-    image: "",
+    image: "Papers/25-e2sam/main.png",
     links: [
-      { name: "pdf", url: "" }
+      { name: "pdf", url: "Papers/25-e2sam/main.pdf" }
     ]
   },
   {
