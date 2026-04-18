@@ -4,10 +4,31 @@ const VISIBLE_COUNT = 10;
 
 const papersData = [
   {
+    title:"Look and check: A multi-label classification pipeline via multi-agent cooperation",
+    authors:"Mingyu Fu, Wei Suo, Yukun Li, <strong>Lingyan Ran*</strong>, Peng Wang.",
+    venue:"② Neurocomputing, 2026.",
+    website:"https://www.sciencedirect.com/science/article/pii/S0925231226010234",
+    image:"Papers/26-multiagent/main.png",
+    links:[
+      {name:"pdf",url:"Papers/26-multiagent/main.pdf"}
+    ]
+  },
+  {
+    title: "Flow-CDNet: A Novel Network for Detecting Both Slow and Fast Changes in Bitemporal Images",
+    authors: "Haoxuan Li, Chenxu Wei, Haodong Wang, Xiaomeng Hu, Boyuan An, <strong>Lingyan Ran</strong>, etc.",
+    venue: "① IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2026.",
+    image: "Papers/25-flowcdnet/main.png",
+    website: "https://ieeexplore.ieee.org/document/11481646",
+    links: [
+      { name: "pdf", url: "Papers/25-flowcdnet/main.pdf" }
+    ]
+  },
+  {
     title:"Better matching, less forgetting: a quality-guided matcher for transformer-based incremental object detection",
     authors:"Qirui Wu, Shizhou Zhang, De Cheng, Yinghui Xing, <strong>Lingyan Ran</strong>, Dahu Shi, Peng Wang.",
     venue:"① Proceedings of the AAAI Conference on Artificial Intelligence, 2026.",
     image:"Papers/26-IOD/main.png",
+    website:"https://ojs.aaai.org/index.php/AAAI/article/view/38046",
     links:[
       {name:"pdf",url:"Papers/26-IOD/IOD.pdf"}
     ]
@@ -75,16 +96,6 @@ const papersData = [
     image: "Papers/25-e2sam/main.png",
     links: [
       { name: "pdf", url: "Papers/25-e2sam/main.pdf" }
-    ]
-  },
-  {
-    title: "Flow-CDNet: A Novel Network for Detecting Both Slow and Fast Changes in Bitemporal Images",
-    authors: "Haoxuan Li, Chenxu Wei, Haodong Wang, Xiaomeng Hu, Boyuan An, <strong>Lingyan Ran</strong>, etc.",
-    venue: "arxiv",
-    image: "Papers/25-flowcdnet/main.png",
-    website: "https://arxiv.org/abs/2507.02307",
-    links: [
-      { name: "pdf", url: "Papers/25-flowcdnet/main.pdf" }
     ]
   },
   {
