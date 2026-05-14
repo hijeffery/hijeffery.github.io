@@ -4,6 +4,16 @@ const VISIBLE_COUNT = 10;
 
 const papersData = [
   {
+    title:"Mamba-Infrared Small Target Detection: Multi-Context Hierarchical Aggregation Mamba for Robust Infrared Small Target Detection",
+    authors:"<strong>Lingyan Ran</strong>, Yiting Wu, Shuai Li*, Yanning Zhang.",
+    venue:"Engineered Science, 2026.",
+    website:"https://www.espublisher.com/journals/articledetails/2229",
+    image:"Papers/26-mambaistd/main.png",
+    links:[
+      {name:"pdf",url:"Papers/26-mambaistd/main.pdf"}
+    ]
+  },
+  {
     title:"Look and check: A multi-label classification pipeline via multi-agent cooperation",
     authors:"Mingyu Fu, Wei Suo, Yukun Li, <strong>Lingyan Ran*</strong>, Peng Wang.",
     venue:"② Neurocomputing, 2026.",
