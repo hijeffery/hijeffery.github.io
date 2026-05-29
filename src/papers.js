@@ -4,6 +4,14 @@ const VISIBLE_COUNT = 10;
 
 const papersData = [
   {
+    title:"Multi-level Collaborative Distillation Meets Global Workspace Model: A Unified Framework for OCIL",
+    authors:"Shibin Su, Guoqiang Liang, De Cheng, Shizhou Zhang, <strong>Lingyan Ran</strong>.",
+    venue:"IEEE Transactions on Image Processing, 2026",
+    website:"https://ieeexplore.ieee.org/document/11536827",
+    image:"Papers/26-gwm/main.png",
+    links:[{name:"pdf",url:"Papers/26-gwm/main.pdf"}]
+  },
+  {
     title:"Mamba-Infrared Small Target Detection: Multi-Context Hierarchical Aggregation Mamba for Robust Infrared Small Target Detection",
     authors:"<strong>Lingyan Ran</strong>, Yiting Wu, Shuai Li*, Yanning Zhang.",
     venue:"Engineered Science, 2026.",
