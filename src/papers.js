@@ -89,16 +89,6 @@ const papersData = [
     ]
   },
   {
-    title: "Multi-level Collaborative Distillation Meets Global Workspace Model: A Unified Framework for OCIL",
-    authors: "Shibin Su, Guoqiang Liang, De Cheng, Shizhou Zhang, <strong>Lingyan Ran</strong>, Yanning Zhang.",
-    venue: "arxiv",
-    image: "Papers/25-OCIL/main.png",
-    website: "https://arxiv.org/abs/2508.08677",
-    links: [
-      { name: "pdf", url: "Papers/25-OCIL/paper.pdf" }
-    ]
-  },
-  {
     title: "Enhancing SAR Image Generation Quality via Laplacian Pyramid-Enhanced VAE with Frequency Domain Loss",
     authors: "Luowei Tan, Shizhou Zhang, Yinghui Xing, <strong>Lingyan Ran</strong>, Peng Wang, Yanning Zhang.",
     venue: "International Joint Conference on Robotics and Artificial Intelligence (IJCRAI), 2025.",
