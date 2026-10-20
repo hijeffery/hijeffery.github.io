@@ -88,3 +88,29 @@ img.paper {
   width: 100px;
   text-align: center;
 }
+
+/*姓名标题（h1 便于搜索引擎识别页面主体，视觉上与原先一致）*/
+h1.name {
+  display: inline;
+  margin: 0;
+  font-size: 16pt;
+  line-height: 110%;
+  font-weight: bold;
+}
+h1.name span {
+  font-size: 16px;
+}
+
+/*论文折叠：启用 JavaScript 时默认折叠 #more_papers；禁用时完整显示，按钮隐藏*/
+#btn-container {
+  display: none;
+}
+.js #btn-container {
+  display: block;
+}
+.js #more_papers {
+  display: none;
+}
+.js #more_papers.expanded {
+  display: block;
+}

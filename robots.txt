@@ -1,0 +1,5 @@
+# Allow all crawlers, including search engines and AI/LLM crawlers.
+User-agent: *
+Allow: /
+
+Sitemap: https://hijeffery.github.io/sitemap.xml

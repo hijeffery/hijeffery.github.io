@@ -1,5 +1,7 @@
-// papers.js
-// 这里的 visibleCount 控制默认显示多少篇论文（这里设为 2025 和 2024 年的大约 10 篇）
+// papers.js —— 主页论文列表的唯一数据源
+// 修改后在仓库根目录运行  node tools/build.js  ，将论文预渲染进 index.html 并更新 llms.txt / sitemap.xml
+// （已安装 git pre-commit 钩子时，提交会自动运行）。浏览器端不再加载本文件。
+// 这里的 VISIBLE_COUNT 控制默认显示多少篇论文（这里设为 2025 和 2024 年的大约 10 篇）
 const VISIBLE_COUNT = 10; 
 
 const papersData = [
@@ -48,7 +50,7 @@ const papersData = [
     image:"Papers/26-IOD/main.png",
     website:"https://ojs.aaai.org/index.php/AAAI/article/view/38046",
     links:[
-      {name:"pdf",url:"Papers/26-IOD/IOD.pdf"}
+      {name:"pdf",url:"Papers/26-IOD/main.pdf"}
     ]
   },
   {
@@ -109,11 +111,11 @@ const papersData = [
   {
     title: "Adaptive Spatial Augmentation for Semi-supervised Semantic Segmentation",
     authors: "<strong>Lingyan Ran</strong>, Yali Li, Tao Zhuo, Shizhou Zhang, Yanning Zhang.",
-    venue: "arxiv",
+    venue: "arXiv:2505.23438, 2025.",
     image: "Papers/25-asaug/fig1.png",
     website: "https://arxiv.org/abs/2505.23438",
     links: [
-      { name: "pdf", url: "Papers/25-asaug/asaug.pdf" }
+      { name: "pdf", url: "https://arxiv.org/pdf/2505.23438" }
     ]
   },
   {
@@ -182,7 +184,7 @@ const papersData = [
   {
     title: "Cross-Platform Video Person ReID: A New Benchmark Dataset and Adaptation Approach",
     authors: "Shizhou Zhang, Wenlong Luo, De Cheng, Qingchun Yang, <strong>Lingyan Ran</strong>, Yinghui Xing, Yanning Zhang.",
-    venue: "② ECCV, 2024.",
+    venue: "② European Conference on Computer Vision (ECCV), 2024.",
     image: "Papers/24-reid/reid.png",
     website: "",
     links: [
@@ -242,7 +244,7 @@ const papersData = [
   {
     title: "Pre-train, Adapt and Detect: Multi-Task Adapter Tuning for Camouflaged Object Detection",
     authors: "Yinghui Xing, Dexuan Kong, Shizhou Zhang, Geng Chen, <strong>Lingyan Ran</strong>, Peng Wang, Yanning Zhang.",
-    venue: "arXiv:2307.10685.",
+    venue: "arXiv:2307.10685, 2023.",
     image: "Papers/23-cod/cod.png",
     website: "https://arxiv.org/abs/2307.10685",
     links: [
@@ -336,10 +338,12 @@ const papersData = [
   {
     title: "An Adaptive Viewpoint Transformation Network for 3D Human Pose Estimation",
     authors: "Guoqiang Liang, Xiangping Zhong, <strong>Lingyan Ran*</strong>, Yanning Zhang",
-    venue: "Access, 2020.",
+    venue: "IEEE Access, 2020.",
     image: "Papers/20-3Dpose/3dpose.png",
     website: "https://ieeexplore.ieee.org/abstract/document/9154716",
-    links: []
+    links: [
+      { name: "pdf", url: "Papers/20-3Dpose/3dPose.pdf" }
+    ]
   },
   {
     title: "EMS-Net: Ensemble of Multiscale Convolutional Neural Networks for Classification of Breast Cancer Histology Images",
@@ -370,6 +374,7 @@ const papersData = [
     links: [
       { name: "Project page", url: "https://hijeffery.github.io/HSI-SPPF/" },
       { name: "bibtex", url: "Papers/17-SPPF/sppf.txt" },
+      { name: "pdf", url: "Papers/17-SPPF/sensors-220768.pdf" },
       { name: "Source code", url: "https://github.com/hijeffery/HSI-SPPF/tree/master/code" }
     ]
   },
@@ -382,6 +387,7 @@ const papersData = [
     links: [
       { name: "Project page", url: "https://hijeffery.github.io/PanoNavi/" },
       { name: "bibtex", url: "Papers/17-Navi/navi.txt" },
+      { name: "pdf", url: "Papers/17-Navi/sensors-online version.pdf" },
       { name: "Source code", url: "https://github.com/hijeffery/PanoNavi/blob/master/navi.zip" }
     ]
   },
