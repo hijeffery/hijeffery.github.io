@@ -6,6 +6,14 @@ const VISIBLE_COUNT = 10;
 
 const papersData = [
   {
+    title:"Sparse retrieval memory with dynamic expansion for class-incremental learning",
+    authors:"Xiangyu Zhou, Yue Lu, Shizhou Zhang, Yinghui Xing, <strong>Lingyan Ran</strong>, Di Xu, and Peng Wang.",
+    venue:"Proceedings of the 34th ACM International Conference on Multimedia, 2026.",
+    website:"https://dl.acm.org/doi/epdf/10.1145/3767308.3835874",
+    image:"Papers/26-sparsemem/main.png",
+    links:[{name:"pdf",url:"Papers/26-sparsemem/main.pdf"}]
+  },
+  {
     title:"Multi-level Collaborative Distillation Meets Global Workspace Model: A Unified Framework for OCIL",
     authors:"Shibin Su, Guoqiang Liang, De Cheng, Shizhou Zhang, <strong>Lingyan Ran</strong>.",
     venue:"IEEE Transactions on Image Processing, 2026",

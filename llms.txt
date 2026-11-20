@@ -20,6 +20,7 @@ Lingyan Ran received his B.S. and Ph.D. degrees from Northwestern Polytechnical 
 
 Same order as on the homepage. "*" marks the corresponding author; "^" marks co-first authors.
 
+- [Sparse retrieval memory with dynamic expansion for class-incremental learning](https://dl.acm.org/doi/epdf/10.1145/3767308.3835874): Xiangyu Zhou, Yue Lu, Shizhou Zhang, Yinghui Xing, Lingyan Ran, Di Xu, and Peng Wang. Proceedings of the 34th ACM International Conference on Multimedia, 2026. [PDF](https://hijeffery.github.io/Papers/26-sparsemem/main.pdf)
 - [Multi-level Collaborative Distillation Meets Global Workspace Model: A Unified Framework for OCIL](https://ieeexplore.ieee.org/document/11536827): Shibin Su, Guoqiang Liang, De Cheng, Shizhou Zhang, Lingyan Ran. IEEE Transactions on Image Processing, 2026. [PDF](https://hijeffery.github.io/Papers/26-gwm/main.pdf)
 - [Mamba-Infrared Small Target Detection: Multi-Context Hierarchical Aggregation Mamba for Robust Infrared Small Target Detection](https://www.espublisher.com/journals/articledetails/2229): Lingyan Ran, Yiting Wu, Shuai Li*, Yanning Zhang. Engineered Science, 2026. [PDF](https://hijeffery.github.io/Papers/26-mambaistd/main.pdf)
 - [Look and check: A multi-label classification pipeline via multi-agent cooperation](https://www.sciencedirect.com/science/article/pii/S0925231226010234): Mingyu Fu, Wei Suo, Yukun Li, Lingyan Ran*, Peng Wang. Neurocomputing, 2026. [PDF](https://hijeffery.github.io/Papers/26-multiagent/main.pdf)
@@ -68,4 +69,4 @@ Same order as on the homepage. "*" marks the corresponding author; "^" marks co-
 - [Simultaneous camera array focus plane estimation and occluded moving object imaging](https://hijeffery.github.io/#pub-simultaneous-camera-array-focus-plane-es): Tao Yang, Yanning Zhang, Rui Yu, Xiaoqiang Zhang, Ting Chen, Lingyan Ran and Zhengxi Song. Image and Vision Computing (IVC), 2014.
 - [Camera Array Synthetic Aperture Focusing and Fusion based Hidden Object Imaging](https://hijeffery.github.io/#pub-camera-array-synthetic-aperture-focusing): Tao Yang, Yanning Zhang, Rui Yu, Xiaoqiang Zhang, Ting Chen, Lingyan Ran and Zhengxi Song. Sino-foreign-interchange Workshop on Intelligence Science and Intelligent Data Engineering (ISciDE), 2011, Xi'an, China.
 
-Generated from https://hijeffery.github.io/ on 2026-10-20.
+Generated from https://hijeffery.github.io/ on 2026-11-20.
